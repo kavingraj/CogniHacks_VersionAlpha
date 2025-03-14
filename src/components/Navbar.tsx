@@ -19,14 +19,25 @@ export default function Navbar() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 60, // Adjust for navbar height if needed
+        behavior: "smooth",
+      });
+    }
+  };
+
   // Handle opening and closing animations
   const toggleMenu = () => {
     if (isOpen) {
-      setIsAnimating(true); // Start fade-out animation
+      // Start closing animation immediately
+      setIsOpen(false);
+      setIsAnimating(true);
       setTimeout(() => {
-        setIsOpen(false); // Hide after animation
-        setIsAnimating(false);
-      }, 300); // Matches CSS animation duration (0.3s)
+        setIsAnimating(false); // Remove menu after animation
+      }, 300);
     } else {
       setIsOpen(true);
     }
@@ -44,9 +55,9 @@ export default function Navbar() {
         {/* Desktop Menu */}
         {!isMobile && (
           <div className="nav-links">
-            <a href="#about">About</a>
-            <a href="#schedule">Schedule</a>
-            <a href="#prizes">Prizes</a>
+            <button onClick={() => scrollToSection("about")}>About</button>
+            <button onClick={() => scrollToSection("schedule")}>Schedule</button>
+            <button onClick={() => scrollToSection("prizes")}>Prizes</button>
             <a href="#faq">FAQ</a>
           </div>
         )}
@@ -67,9 +78,9 @@ export default function Navbar() {
         <div
           className={`mobile-menu ${isOpen ? "fade-in" : "fade-out"}`}
         >
-          <a href="#about">About</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#prizes">Prizes</a>
+          <button onClick={() => { scrollToSection("about"); toggleMenu(); }}>About</button>
+          <button onClick={() => { scrollToSection("schedule"); toggleMenu(); }}>Schedule</button>
+          <button onClick={() => { scrollToSection("prizes"); toggleMenu(); }}>Prizes</button>
           <a href="#faq">FAQ</a>
           <button className="register-button">Register Now</button>
         </div>
