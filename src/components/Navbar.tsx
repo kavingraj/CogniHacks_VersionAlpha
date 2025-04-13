@@ -48,7 +48,7 @@ export default function Navbar() {
       <div className="navbar-container">
         {/* Logo */}
         <div className="logo">
-          <Brain className="logo-icon" />
+          <img src="/src/Public/CogniHacks-transparent.png"className="logo-icon" />
           <span className="logo-text">CogniHacks 2025</span>
         </div>
 
@@ -81,7 +81,7 @@ export default function Navbar() {
           <button onClick={() => { scrollToSection("about"); toggleMenu(); }}>About</button>
           <button onClick={() => { scrollToSection("schedule"); toggleMenu(); }}>Schedule</button>
           <button onClick={() => { scrollToSection("prizes"); toggleMenu(); }}>Prizes</button>
-          <a href="#faq">FAQ</a>
+          <button onClick={() => { scrollToSection("prizes"); toggleMenu(); }}>Sponsors</button>
           <button className="register-button">Register Now</button>
         </div>
       )}

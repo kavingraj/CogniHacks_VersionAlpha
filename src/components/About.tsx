@@ -9,9 +9,9 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white/5 p-8 rounded-2xl backdrop-blur-sm">
             <Laptop className="w-12 h-12 text-indigo-400 mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Learn & Grow</h3>
+            <h3 className="text-xl font-semibold mb-4">Get involved in emerging BCI Technology</h3>
             <p className="text-gray-400">
-              Join workshops, tech talks, and mentorship sessions led by industry experts.
+              Create better 
             </p>
           </div>
           <div className="bg-white/5 p-8 rounded-2xl backdrop-blur-sm">

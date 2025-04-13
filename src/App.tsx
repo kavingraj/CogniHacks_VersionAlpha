@@ -6,17 +6,19 @@ import { About } from './components/About';
 import { Schedule } from './components/Schedule';
 import { Prizes } from './components/Prizes';
 import { Footer } from './components/Footer';
+import CircuitBorder  from './components/CircuitBorder';
 
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-indigo-900 text-white">
-      <Navbar />
-      <Hero />
-      <section id="stats"><Stats /></section>
-      <section id="about"><About /></section>
-      <section id="schedule"><Schedule /></section>
-      <section id="prizes"><Prizes /></section>
-      <Footer />
+        <CircuitBorder />
+        <Navbar />
+        <Hero />
+        <section id="stats"><Stats /></section>
+        <section id="about"><About /></section>
+        <section id="schedule"><Schedule /></section>
+        <section id="prizes"><Prizes /></section>
+        <Footer />
     </div>
   );
 }
