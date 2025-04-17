@@ -44,7 +44,7 @@ const App: React.FC = () => {
         <div className='container-right'>
               <nav>
                 <ul>
-                  <li><a href="#why">Why CogniHacks?</a></li>
+                  <li><a href="#tracks">Competitions</a></li>
                   <li><a href="#sponsorship">Sponsorship</a></li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -54,35 +54,54 @@ const App: React.FC = () => {
       
       {/* Hero Section with Brain in the Background */}
       <section className="hero">
-        <div className="hero-content">
-          <h2>Innovate the Future with Neurotechnology</h2>
-          <p>
-            Join us as we bring BCIs to the mainstream and inspire impactful projects with AI.
-          </p>
-          <a
-            href="#contact"
-            className="cta-button"
-          >
-            Get in Touch
-          </a>
+          <div className="hero-content">
+            <h2>Innovate the Future with Neurotechnology</h2>
+            <p>
+              Join us as we bring BCIs to the mainstream and inspire impactful projects with AI.
+            </p>
+            <a
+              href="#contact"
+              className="cta-button"
+            >
+              Register Now
+            </a>
         </div>
       </section>
       
       {/* Why CogniHacks Section */}
-      <section id="why" className="container">
-        <h2 className="section-title">Why CogniHacks?</h2>
+      <section className="eventInfo">
+        <div className="container">
+          <h2 className="section-title">CogniHacks Is Coming.</h2>
+          <h3>
+            August 30th - Pleasanton, CA
+          </h3>
+          <p>
+          Join our community of innovators at CogniHacks 2025, a student-led hackathon bringing together coders, creators, and neurotech enthusiasts to explore the future of Brain-Computer Interfaces (BCIs). While BCIs have traditionally been used in clinical research, our mission is to mainstream their recreational and creative potential in the computer science world. By combining AI and HCI, we aim to inspire participants to build impactful, human-centered projects that push the boundaries of how we interact with technology.
+          </p>
+        </div>
+      </section>
+      <section id="tracks" className="container">
+        <h2 className="section-title">The Tracks.</h2>
         <div className="benefits">
           <div className="benefit">
-            <h3>Brand Awareness</h3>
-            <p>Boost your brand's visibility among tech-savvy students across the Bay Area.</p>
+            <h3>BCI</h3>
+            <p>Introduce/demonstrate general BCI data flow to attendees and provide resources for BCI powered projects </p>
           </div>
           <div className="benefit">
-            <h3>Recruitment Opportunity</h3>
-            <p>Access a pool of future employees, interns, and innovative thinkers.</p>
+            <h3>HCI</h3>
+            <p>Coding projects aimed at enhancing the way humans use computers to solve tasks</p>
           </div>
           <div className="benefit">
-            <h3>Community Engagement</h3>
-            <p>Support the growth of local tech skills and nurture future technology leaders.</p>
+            <h3>HCI (Concept)</h3>
+            <p>Low to No Code projects presenting ideas for better interfaces humans can use for solving tasks</p>
+          </div>
+          <div className="benefit">
+            <h3>AI:</h3>
+            <p>yada yada yada</p>
+          </div>
+          <div className="benefit">
+            <h3>Data Science:</h3>
+            <p>yada yada yada</p>
           </div>
         </div>
       </section>
@@ -133,12 +152,6 @@ const App: React.FC = () => {
         <p style={{ textAlign: 'center' }}>Have questions? We’d love to hear from you!</p>
         <p style={{ textAlign: 'center' }}>
           Email: <a href="mailto:hello@cognihacks.com">hello@cognihacks.com</a>
-        </p>
-        <p style={{ textAlign: 'center' }}>
-          Visit:{' '}
-          <a href="http://cognihacks.com" target="_blank" rel="noopener noreferrer">
-            cognihacks.com
-          </a>
         </p>
       </section>
       
