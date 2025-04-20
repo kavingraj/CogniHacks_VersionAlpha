@@ -45,7 +45,13 @@
   
   /* Header Styling */
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
     display: flex;
 
   }
@@ -95,7 +101,7 @@
   /* Hero Section with Brain Behind the Text */
   .hero {
     position: relative;
-    padding: 40px 20px;
+    padding: 50px 20px;
     min-height: 400px;
     display: flex;
     align-items: center;
