@@ -145,6 +145,99 @@ const App: React.FC = () => {
           <a href="mailto:sponsors@cognihacks.com">sponsors@cognihacks.com</a>
         </p>
       </section>
+
+            {/* Frequently Asked Questions */}
+            <section id="sponsorship" className="container">
+        <h2 className="section-title">Frequently Asked Questions</h2>
+        <div className="frequently-asked-questions">
+          <div className="sponsor-card">
+            <h3>What is CogniHacks?</h3>
+            <p>Cognihacks is a hackathon focused on mainstreaming neurotechnology 
+              in the CS world. As BCIs tend to primarily be used in clinical research, Our 
+              vision is to bring awareness about recreational BCIs to coders in this hackathon, 
+              inspiring them to make impactful projects with AI powered by BCI’s.
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>Who can participate in CogniHacks?</h3>
+            <p>Anyone. High schoolers, Neurotech enthusiasts, College students, anyone who wants to 
+              learn more about BCI’s HCI, and their involvement with AI
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>Do I need to have coding experience to join?</h3>
+            <p>No prior coding experience is required
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>What should I bring to the hackathon?</h3>
+            <p>Participants should bring laptop, charger, (maybe Emotiv’s software). We have free food and drinks!
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>Is there a cost to attend CogniHacks?</h3>
+            <p>There is no cost because we have sponsors!
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>What is a BCI?</h3>
+            <p>A Brain-Computer Interface (BCI) is a technology that enables direct communication between the brain and a computer. Using sensors to detect brain signals, 
+              BCIs allow users to control digital devices with their thoughts — no physical movement required. They're used in areas like neurorehabilitation, gaming, and now, 
+              creative coding projects like those at CogniHacks!
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>Do I need to bring a BCI? </h3>
+            <p>Nope! You don’t need to bring your own BCI to participate. We’ll have a limited number of BCI devices available on-site for teams to use during the hackathon. If you do have your own device (like a NextMind or Emotiv headset), 
+              feel free to bring it — but it’s not required to join the fun or build something awesome!
+            </p>
+          </div>
+          <div className="sponsor-card">
+            <h3>What is HCI?</h3>
+            <p>Human-Computer Interaction (HCI) is the study and design of how people interact with computers and technology. It focuses on creating intuitive, efficient, and user-friendly interfaces — 
+              from apps and websites to emerging tech like VR and BCIs. At CogniHacks, HCI plays a key role in making brain-powered tools more accessible, engaging, and impactful.
+            </p>
+          </div>
+        </div>
+        <p style={{ textAlign: 'center', marginTop: '20px' }}>
+          For special sponsorship arrangements, please email{' '}
+          <a href="mailto:sponsors@cognihacks.com">sponsors@cognihacks.com</a>
+        </p>
+      </section>
+
+            {/* Schedule */}
+      <section id="sponsorship" className="container">
+        <h2 className="section-title">Schedule</h2>
+        <div className="sponsorship-levels">
+          <div className="sponsor-card">
+            <h3>Important Note</h3>
+            <p>During the hackathon, all updates, announcements, and essential resources will be posted on our live page. 
+              Whether it's schedule changes, API keys, 
+              important links, or project submission details, everything you need will be there.</p>
+          </div>
+          </div>
+          <div className="sponsorship-levels">
+          <div className="sponsor-card">
+            <h3>Timings</h3>
+            <ul>
+              <li><strong>8:30 AM</strong> — Check-in & Breakfast<br /><em>Registration desk open, coffee & snacks</em></li>
+              <li><strong>9:00 AM</strong> — Opening Ceremony<br /><em>Welcome, theme reveal, sponsor intros</em></li>
+              <li><strong>9:30 AM</strong> — Team Formation & Ideation Begins<br /><em>Icebreakers if needed for team creation</em></li>
+              <li><strong>10:00 AM</strong> — Hacking Begins<br /><em>Mentors available for guidance</em></li>
+              <li><strong>12:30 PM</strong> — Lunch Break<br /><em>Encourage casual networking</em></li>
+              <li><strong>1:00 PM</strong> — Optional Workshops / Tech Talks<br /><em>Parallel with hacking, 30–45 min</em></li>
+              <li><strong>3:30 PM</strong> — Midpoint Check-in / Optional Demos<br /><em>Brief status update from teams</em></li>
+              <li><strong>4:00 PM</strong> — Continue Hacking<br /><em>Push toward MVP</em></li>
+              <li><strong>6:30 PM</strong> — Hacking Ends – Code Freeze<br /><em>Finalize demos & prepare pitch</em></li>
+              <li><strong>6:45 PM</strong> — Dinner + Demo Setup<br /><em>Light dinner/snacks</em></li>
+              <li><strong>7:15 PM</strong> — Project Demos & Presentations<br /><em>3–5 mins per team</em></li>
+              <li><strong>8:15 PM</strong> — Judging + Audience Voting<br /><em>Judges deliberate, attendees vote</em></li>
+              <li><strong>8:45 PM</strong> — Awards & Closing Ceremony<br /><em>Prizes, photos, shout-outs</em></li>
+              <li><strong>9:00 PM</strong> — Event Wrap-Up + Socializing / Networking<br /><em>Chill vibes, music, casual chats</em></li>
+            </ul>
+          </div>
+        </div>
+      </section>
       
       {/* Contact Section */}
       <section id="contact" className="container">
